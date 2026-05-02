@@ -204,7 +204,7 @@ function renderQuizQuestion(container) {
   container.appendChild(optionsContainer);
 }
 
-// Map your existing buttons to call the function
+// Map your Existing buttons to Call the Function
 function generateSummary() { callAI('summary'); }
 function generateQuiz() { callAI('quiz'); }
 function generateFlashcards() { callAI('flashcards'); }
